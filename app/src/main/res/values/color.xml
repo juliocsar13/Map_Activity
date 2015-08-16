@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_light">#ff137fae</color>
+    <color name="black">#ff000000</color>
+    <color name="lead_transparent">#54575750</color>
+    <color name="black_light">#ff848484</color>
+    <color name="transparent">#0000</color>
+    <color name="indicator_deslizante">#ff34d418</color>
+    <color name="indicator_underline">#ff0f6b08</color>
+    <color name="divider_color">#ffecff14</color>
+    <color name="green">#ff10c034</color>
+    <color name="red">#ffff0000</color>
+    <color name="orange">#ffffad0d</color>
+</resources>

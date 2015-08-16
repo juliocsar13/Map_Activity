@@ -1,0 +1,183 @@
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="68dp"
+    sothree:umanoShadowHeight="4dp"
+    android:background="#9E9E9E">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/frame_layout">
+
+        <LinearLayout
+
+            android:enabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="vertical"
+            android:background="@drawable/theme_layout"
+            android:clickable="false"
+            android:id="@+id/lineartheme">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Direccion Actual:"
+                android:textColor="#2f2f2f"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txtAddressCity"
+                android:enabled="true"
+                android:text="Avenida maria parado de vellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2f2f2f" />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/mapView"
+            android:baselineAligned="false"
+            android:background="#ffffff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/llConnection"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textsize_conection"
+                        android:textColor="#ffffffff"
+                        android:id="@+id/txtStateConnection"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edtNote"
+                        android:enabled="true"
+                        android:layout_width="@dimen/edit_width_tall"
+                        android:layout_height="@dimen/edit_height_tall"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:imeOptions="actionDone"
+                        android:background="@drawable/note_map"
+                        android:hint="@string/map.hint.note"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/spacing_tiny"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/marker"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/imgMarker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@mipmap/ic_launcher"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="bottom"
+                    android:layout_gravity="bottom">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutParameters"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:visibility="invisible"
+                        android:background="@drawable/degraded_black"
+                        android:padding="9dp">
+                        <TextView
+                            android:visibility="invisible"
+                            android:id="@+id/txtDistance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:text="0 KM"
+                            android:textSize="16sp"
+                            android:textColor="#fff8f8f8"/>
+                        <TextView
+                            android:visibility="invisible"
+                            android:id="@+id/txtTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            android:text="0 minutos"
+                            android:textStyle="bold"
+                            android:textColor="#fff8f8f8"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/button_height_very_tall"
+                            android:text="@string/map.button.call"
+                            android:id="@+id/btnCallTaxi"
+                            android:layout_weight="1"
+                            android:background="@drawable/blue"
+                            android:textColor="@color/black"
+                            android:layout_margin="@dimen/spacing_margin"
+                            android:textSize="@dimen/font_normal"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/button_height_very_tall"
+                            android:text="@string/map.button.cancel"
+                            android:background="@drawable/locked_btn_call"
+                            android:id="@+id/btnCancelTaxi"
+                            android:enabled="false"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:layout_gravity="bottom"
+                            android:layout_margin="@dimen/spacing_margin"
+                            android:textSize="@dimen/font_normal"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawable="@android:color/transparent"/>-->
+    </FrameLayout>
+    <!--SEGUNDO LAYOUT-->
+    <include layout="@layout/layout_sliding_panel"/>-
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

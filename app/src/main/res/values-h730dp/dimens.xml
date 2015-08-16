@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height_logo">200dp</dimen>
+
+
+    <dimen name="activity_recover_textView">45dp</dimen>
+
+    <dimen name="edit_width_very_tall">280dp</dimen>
+    <dimen name="edit_width_tall">267dp</dimen>
+    <dimen name="edit_width_normal">250dp</dimen>
+    <dimen name="edit_width_short">200dp</dimen>
+
+    <dimen name="edit_height_very_tall">55dp</dimen>
+    <dimen name="edit_height_tall">57dp</dimen>
+    <dimen name="edit_height_normal">57dp</dimen>
+    <dimen name="edit_height_short">30dp</dimen>
+
+    <dimen name="image_width_very_tall">130dp</dimen>
+    <dimen name="image_width_tall">90dp</dimen>
+    <dimen name="image_width_normal">50dp</dimen>
+    <dimen name="image_width_short">30dp</dimen>
+
+    <dimen name="button_width_very_tall">222dp</dimen>
+    <dimen name="button_width_tall">220dp</dimen>
+    <dimen name="button_width_normal">180dp</dimen>
+    <dimen name="button_width_short">150dp</dimen>
+
+    <dimen name="button_height_very_tall">52dp</dimen>
+    <dimen name="button_height_tall">55dp</dimen>
+    <dimen name="button_height_normal">40dp</dimen>
+    <dimen name="button_height_short">40dp</dimen>
+
+    <dimen name="image_height_very_tall">130dp</dimen>
+    <dimen name="image_height_tall">90dp</dimen>
+    <dimen name="image_height_normal">50dp</dimen>
+    <dimen name="image_height_short">30dp</dimen>
+
+    <dimen name="spacing_huge">50dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_normal_two">150dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_tiny">2dp</dimen>
+    <dimen name="spacing_margin">2dp</dimen>
+    <dimen name="spacing_padding">8dp</dimen>
+    <dimen name="spacing_paddingTopEdit">70dp</dimen>
+    <dimen name="spacing">50dp</dimen>
+
+
+    <dimen name="font_larger">22sp</dimen>
+    <dimen name="font_large">15sp</dimen>
+    <dimen name="font_normal">18sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+
+    <dimen name="spacing_sliding">55dp</dimen>
+    <dimen name="spacing_sliding_padding">10dp</dimen>
+    <dimen name="spacing_sliding_padding_one">-20dp</dimen>
+    <dimen name="spacing_sliding_padding_two">-30dp</dimen>
+    <dimen name="spacing_sliding_height_image">200dp</dimen>
+    <dimen name="spacing_height_button">55dp</dimen>
+    <dimen name="spacing_width_button">220dp</dimen>
+    <dimen name="font_data">15sp</dimen>
+    <dimen name="font_data_title">17sp</dimen>
+    <dimen name="font_button">20sp</dimen>
+
+    <dimen name="marker">200dp</dimen>
+
+    <dimen name="profile_Right">20dp</dimen>
+    <dimen name="profile_Left">20dp</dimen>
+    <dimen name="profile_Bottom">10dp</dimen>
+    <dimen name="layout_height_image_presentation">245dp</dimen>
+    <dimen name="layout_height_image_taxi">185dp</dimen>
+    <dimen name="font_size_data">20sp</dimen>
+    <dimen name="font_size_presentation">22sp</dimen>
+    <dimen name="font_size_button_data">20sp</dimen>
+    <dimen name="button_height_accept">65dp</dimen>
+    <dimen name="button_width_accept">370dp</dimen>
+    <dimen name="textsize_conection">19sp</dimen>
+</resources>
