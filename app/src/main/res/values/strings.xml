@@ -134,5 +134,7 @@
     <string name="history.list.view.company">Compañia :</string>
     <string name="history.list.view.address">Direccion :</string>
     <string name="history.list.view.date">Fecha :</string>
+    <string name="list.state.button.on">Ocupado</string>
+    <string name="list.state.button.off">Disponible</string>
 
 </resources>

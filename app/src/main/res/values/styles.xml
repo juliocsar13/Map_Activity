@@ -2,7 +2,14 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+
         <!-- Customize your theme here. -->
     </style>
+
+    <!--<style name="FloatingButton" parent="Widget.Design.FloatingActionButton">
+
+        <item name="android:background">@drawable/btn_floating_action_midle</item>
+    </style>-->
 
 </resources>
